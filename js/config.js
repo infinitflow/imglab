@@ -164,6 +164,7 @@ var pluginsStore = {
     }
 }
 
+// TODO: Add surveying specific categories
 var suggestedCategories = ["dog", "cat", "car", "vehicle", "truck", "animal", "building", "person"];
 var suggestedTags = [];
 var suggestedAttributes = {
