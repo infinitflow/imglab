@@ -74,6 +74,14 @@ Visit the [Features Documentation](/docs/features.md) for a complete list of the
 
 To install locally, head to the [Installation Guide](/docs/guide.md/#offline-installation).
 
+## How to use via Docker
+
+1. If you haven't built the docker image, cd into the root dir of this project and run: `docker build -t imglab .` 
+2. Once that runs, if you list all local docker images you should see `imglab`. To list run: `docker images`
+3. Now to run a container from the newly created image run: `docker run -p 8080:8080 imglab`
+4. Now if you browse to [http://localhost:8080](http://localhost:8080) you should have imglab running
+5. To stop, on a different terminal tab, run: `docker ps`. This will list the running containers. Copy the container id for the imglab container. Now run `docker stop <imglab container id>`
+
 ### How to use Imglab's features:
 
 * [Auto-suggestions](/docs/guide.md/#auto-suggestion)
