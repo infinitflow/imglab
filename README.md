@@ -74,6 +74,8 @@ Visit the [Features Documentation](/docs/features.md) for a complete list of the
 
 To install locally, head to the [Installation Guide](/docs/guide.md/#offline-installation).
 
+To use via Docker:
+
 ### How to use Imglab's features:
 
 * [Auto-suggestions](/docs/guide.md/#auto-suggestion)
